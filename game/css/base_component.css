@@ -8,30 +8,57 @@ body {
 }
 
 div{
-    position: relative;
-    border: 1px solid rgb(243, 243, 243);
-    position: relative;
+    position: relative; 
     border: 1px solid rgb(243, 243, 243);
 }
 
 .div_container {
     position: absolute;
-    top: 0;
-    left: 0;
+    
     width: 100%;
     height: 100%;
-    border: 1px solid black;
+    border: 1px solid rgb(255, 255, 255);
     overflow-y: auto; 
     overflow-x: hidden;
     box-sizing: border-box;
 }
 
 .div_view {
-    position: relative;
     width: 100%;
-    height: 100vh;
-    box-sizing: border-box;
+    height: 100%;
+
+    font-size: 2vw;
+    color: aliceblue;
 }
+
+.div_game{
+    margin: 4px;
+    width: 99vw;
+    height: 90%;
+    border: 1px solid rgb(228, 21, 21);
+}
+
+.div_img{
+    height: 25%;
+    width: 25%;
+
+    top: 35%;
+    left: 20%;
+}
+
+.div_situation{
+    height: 25%;
+    width: 25%;
+    top: 0%;
+    left: 50%;
+}
+.div_choices{
+    height: 25%;
+    width: 25%;
+    top: 10%;
+    left: 50%;
+}
+
 
 .div_specific {
     position: relative;
