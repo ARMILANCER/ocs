@@ -23,6 +23,10 @@ div{
     box-sizing: border-box;
 }
 
+.div_container.locked {
+    overflow: hidden;
+}
+
 .div_view {
     position: relative;
     width: 100%;
