@@ -11,10 +11,9 @@ if ($result_user && mysqli_num_rows($result_user) > 0) {
     echo json_encode($error);
 }
 
-
 mysqli_close($con);
 
 function all(){
     return 0;
 }
-?>
+?>s
