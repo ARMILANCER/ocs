@@ -139,12 +139,11 @@ form{
 .title{
     font-family: Georgia, serif;
     font-size: 2.8vw;
-    
-    color: #FFFFFF; 
+        
+    color: #FFFFFF;
     font-weight: 700;
     text-decoration: none solid rgb(68, 68, 68);
     font-style: italic;
-    
     text-transform: capitalize;
     text-shadow: 
         0 -1px 4px #FFF, 
