@@ -1,7 +1,7 @@
 <?php
 include 'db_conn.php';
 
-$query_user = "SELECT * FROM `user` WHERE id = 1 || id = 60";
+$query_user = "SELECT * FROM `user` WHERE id = 60";
 $result_user = mysqli_query($con, $query_user);
 if ($result_user && mysqli_num_rows($result_user) > 0) {
     $user = mysqli_fetch_assoc($result_user);
@@ -12,8 +12,4 @@ if ($result_user && mysqli_num_rows($result_user) > 0) {
 }
 
 mysqli_close($con);
-
-function all(){
-    return 0;
-}
 ?>
