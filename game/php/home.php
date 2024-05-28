@@ -17,5 +17,4 @@ mysqli_close($con);
 function all(){
     return 0;
 }
-
 ?>
