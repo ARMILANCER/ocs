@@ -1,12 +1,3 @@
-INSERT INTO scenario (name, description) VALUES ("L'infiltrazione notturna", "La squadra si avvicina furtivamente al confine del territorio nemico sotto la copertura della notte. Il campo è sorvegliato da pattuglie armate e droni di sorveglianza.");
-INSERT INTO scenario (name, description) VALUES ("Il villaggio abbandonato", "Falco 7 scopre un villaggio abbandonato che potrebbe fornire rifugio temporaneo, ma ci sono segni che i terroristi potrebbero aver piazzato delle trappole.");
-INSERT INTO scenario (name, description) VALUES ("La tempesta di sabbia", "Una tempesta di sabbia improvvisa riduce drasticamente la visibilità, mettendo a rischio l'intera squadra.");
-INSERT INTO scenario (name, description) VALUES ("Il ponte minato", "La squadra arriva a un ponte che attraversa un canyon, ma scopre che è stato minato dai terroristi.");
-INSERT INTO scenario (name, description) VALUES ("Il campo nemico", "La squadra scopre un campo nemico con armi e rifornimenti, ma è pesantemente sorvegliato.");
-INSERT INTO scenario (name, description) VALUES ("La torre di guardia", "La squadra deve passare vicino a una torre di guardia nemica con cecchini ben posizionati.");
-INSERT INTO scenario (name, description) VALUES ("Il quartier generale nemico", "La squadra arriva finalmente al complesso dove sono tenuti gli ostaggi, ma l'area è fortificata con numerose guardie e sistemi di sicurezza avanzati.");
-INSERT INTO scenario (name, description) VALUES ("La fuga", "Con gli ostaggi liberati, la squadra deve fuggire prima che arrivino i rinforzi nemici. La fuga è complicata da diversi fattori, tra cui il terreno e la presenza di pattuglie nemiche.");
-
 INSERT INTO choice (id_scenario, description) VALUES
 (1, 'Dividere la squadra in due gruppi: Falco e Torre distraggono i nemici mentre Snake si infiltra furtivamente.'),
 (1, "Utilizzare dispositivi di disturbo per confondere i droni e avanzare in un'unica formazione compatta."),
