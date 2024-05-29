@@ -4,15 +4,15 @@ body {
     height: 100%;
     background-color: black;
     overflow: hidden;
+
 }
 
 div{
     position: relative; 
-    border: 1px solid black;
+ 
 }
     
 button {
-    
     position: relative;
     align-items: center;
     background-color: transparent;
@@ -51,6 +51,7 @@ p{
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
+    border: 1px solid rgb(68, 205, 22);
 }
 
 .game_title{
@@ -69,16 +70,17 @@ p{
 }
 
 .div_game{
+    border: 1px solid rgb(37, 147, 231);
     position: relative;
-    height: 90vh;
+    height: 100%;
     width: 100%;
     color: aliceblue;
 }
 
 .div_img{
-    height: 80%;
+    height: 73%;
     width: 40%;
-    top: 9%;
+    top: 0%;
     left: 5%;
 
     background-image: url('../img/Scenario1.jpg');
@@ -90,14 +92,14 @@ p{
 .div_situation{
     height: 25%;
     width: 45%;
-    top: -60%;
+    top: -70%;
     left: 50%;
 }
 
 .div_choices{
     height: 25%;
     width: 45%;
-    top: -50%;
+    top: -60%;
     left: 50%;
 }
 
@@ -114,7 +116,7 @@ p{
 }
 
 .div_specific {
-    margin-top: 50px;
+    
     padding: 20px;
     background-color: #f2f2f2;
     border-radius: 10px;
