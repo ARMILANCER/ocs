@@ -60,9 +60,9 @@ button:hover {
 }
 
 .div_game{
-    height: 90%;
+    height: 90vh;
     width: 100%;
-
+    color: aliceblue;
 }
 
 .div_img{
@@ -91,10 +91,6 @@ button:hover {
     bottom: 1vw;
     left: 1vw;
     padding: 1vw 1vw;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
 }
 
 .text {
