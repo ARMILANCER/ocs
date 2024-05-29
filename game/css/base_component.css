@@ -59,16 +59,10 @@ button:hover {
     box-sizing: border-box;
 }
 
-.div_button {
-    position: absolute;
-    top: 49vw;
-    left: 1vw;
-    transform: translate(-50%, -50%);
-}
-
 .div_game{
-    height: 80%;
+    height: 90%;
     width: 100%;
+
 }
 
 .div_img{
@@ -84,11 +78,23 @@ button:hover {
     top: -10%;
     left: 50%;
 }
+
 .div_choices{
     height: 25%;
     width: 25%;
     top: 5%;
     left: 50%;
+}
+
+.but_padlock{
+    position: absolute;
+    bottom: 1vw;
+    left: 1vw;
+    padding: 1vw 1vw;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
 .text {
