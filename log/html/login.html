@@ -8,30 +8,30 @@
     <link rel="stylesheet" type="text/css" href="../css/login.css">
     <link rel="stylesheet" type="text/css" href="../css/log.css">
 </head>
-<body >
+<body>
     <div class="div_title">
         <h2 class="title">Operation Crimson Sands</h2>
     </div>
     <div id="div_container" class="container">
-            <div class="div_registration">
-                <form  action="../php/login.php" method="post">
-                    <div id="page_to" class="page_to">LOGIN</div>
-                    <div id="div_input" class="div_input">
-                        <label for="nickname">Nickname:</label>
-                        <input type="text" id="nickname" name="nickname"   required>
-                    </div>
-                    <div id="div_input" class="div_input">
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password" class="" onclick="togglePassword()"  title="press to view" required>
-                    </div>
-                    <div id="div_submit" class="div_submit">
-                        <button type="sumit" onclick="validation(event)">ENTER</button><br><br>
-                        <div class="registration-link-container">
-                            <a class="registration-link" href="pagina_registrazione.html">Non ti sei registrato? Premi qui</a>
-                        </div>
-                    </div>
-                </form>
-            </div>
+        <div class="div_registration">
+            <form action="../php/login.php" method="post">
+                <div id="page_to" class="page_to">LOGIN</div>
+                <div id="div_input" class="div_input">
+                    <label for="nickname">Nickname:</label>
+                    <input type="text" id="nickname" name="nickname" required>
+                </div>
+                <div id="div_input" class="div_input">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" onclick="togglePassword()" title="press to view" required>
+                </div>
+                <div id="div_submit" class="div_submit">
+                    <button type="submit" onclick="validation(event)">ENTER</button>
+                </div>
+                <div id="div_link" class="div_link">
+                    <br>Non ti sei registrato? <a class="link" href="../html/join.html">Premi qui</a>
+                </div>
+            </form>
+        </div>
     </div>
     <script src="../js/credentials.js"></script>
 </body>
