@@ -1,24 +1,45 @@
 <?php
 include 'db_conn.php';
-$sql = "SELECT * FROM scenario";
-$result = $con->query($sql);
 
-if ($result->num_rows > 0) {
+$querySC = "SELECT * FROM scenario";
+$queryCH = "SELECT * FROM choice";
+
+$resultSC = $con->query($querySC);
+$resultCH = $con->query($queryCH);
+
+if ($resultSC->num_rows > 0 && $resultCH->num_rows > 0) {
     $scenarios = array();
-    while($row = $result->fetch_assoc()) {
+    $choices = array();
+    
+    while($row = $resultCH->fetch_assoc()) {
+        $choice = array(
+            "id" => $row["id"],
+            "scenario" => $row["id_scenario"],
+            "description" => $row["description"]
+        );
+        $choices[] = $choice;
+    }
+    while($row = $resultSC->fetch_assoc()) {
         $scenario = array(
             "id" => $row["id"],
             "name" => $row["name"],
             "image" => $row["image"],
             "description" => $row["description"]
         );
+        $i = 1;
+        foreach ($choices as $choice) {
+            if ($choice["scenario"] == $scenario['id']) {
+                $scenario["choice".$i] = $choice['description'];
+                $i++;
+            }
+        }
+        
         $scenarios[] = $scenario;
     }
-    echo json_encode($scenarios);
 } else {
     echo "Nessun risultato trovato";
 }
 
-
+echo json_encode($scenarios);
 $con->close();
 ?>
