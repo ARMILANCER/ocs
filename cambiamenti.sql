@@ -6,8 +6,68 @@ ALTER TABLE choice ADD COLUMN description TEXT NOT NULL;
 
 ALTER TABLE characters DROP short_description;
 ALTER TABLE `characters` CHANGE `long_description` `long_description` TEXT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci NOT NULL;
-
 ALTER TABLE `user` ADD `wins` INT AFTER `password`;
+-- DB structure
+
+CREATE TABLE IF NOT EXISTS `user` (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    nickname VARCHAR(50) NOT NULL UNIQUE,
+    mail VARCHAR(150) NOT NULL UNIQUE,
+    `password` VARCHAR(30) NOT NULL,
+    wins int (11)
+);
+
+CREATE TABLE IF NOT EXISTS scenario (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  name VARCHAR(50) NOT NULL,
+  image VARCHAR(200) UNIQUE,
+  description text
+);
+
+CREATE TABLE IF NOT EXISTS characters (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(70) NOT NULL UNIQUE,
+    long_description text NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS choice (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(50) NOT NULL,
+    id_scenario INT NOT NULL,
+    FOREIGN KEY (id_scenario) REFERENCES scenario(id)
+);
+
+CREATE TABLE IF NOT EXISTS character_user (
+    id_user INT NOT NULL,
+    id_character INT NOT NULL,
+    FOREIGN KEY (id_user) REFERENCES `user`(id),
+    FOREIGN KEY (id_character) REFERENCES characters(id)
+);
+
+CREATE TABLE IF NOT EXISTS `match` (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    timer INT NOT NULL,
+    score INT NOT NULL,
+    id_user INT NOT NULL,
+    FOREIGN KEY (id_user) REFERENCES `user`(id)
+);
+
+CREATE TABLE IF NOT EXISTS match_scenario (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    id_scenario INT NOT NULL,
+    id_match INT NOT NULL,
+    FOREIGN KEY (id_scenario) REFERENCES scenario(id),
+    FOREIGN KEY (id_match) REFERENCES `match`(id)
+);
+
+CREATE TABLE IF NOT EXISTS user_choice (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    id_match INT NOT NULL,
+    id_choice INT NOT NULL,
+    timestamp TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (id_match) REFERENCES `match`(id),
+    FOREIGN KEY (id_choice) REFERENCES choice(id)
+);
 
 -- Database population
 INSERT INTO scenario (name, description) VALUES ("L'infiltrazione notturna", "La squadra si avvicina furtivamente al confine del territorio nemico sotto la copertura della notte. Il campo è sorvegliato da pattuglie armate e droni di sorveglianza.");
@@ -45,4 +105,3 @@ INSERT INTO characters (name, long_description) VALUES
 ("Soldato Andrea Ferrari: Snake", "Il Soldato Andrea Ferrari, conosciuto come Snake, è il fulcro dell'azione della squadra. Abile nell'infiltrarsi dietro le linee nemiche e nel condurre operazioni di ricognizione, è una risorsa preziosa per la squadra. Con la sua determinazione ferrea e la sua abilità nel combattimento a distanza, è sempre pronto a mettere a repentaglio la propria vita per il successo della missione e il benessere dei suoi compagni.");
 INSERT INTO characters (name, long_description) VALUES
 ("Soldato semplice", "Il Soldato Semplice è un membro generico della squadra, addestrato per supportare in qualsiasi ruolo necessario. Sebbene non possieda delle competenze specialistiche esso è versatile e adattabile. Pronto a seguire gli ordini e a eseguire compiti di base, è un elemento essenziale per mantenere l'efficacia della squadra in situazioni critiche.");
-
