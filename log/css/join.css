@@ -1,6 +1,5 @@
 div{
     position: relative;
-
 }
 label{
     position: relative;
@@ -163,7 +162,6 @@ form{
     font-size: 1vw;
     display: inline-block;
     white-space: nowrap;
-    top: 50%;
     left: 32%;
 }
 
