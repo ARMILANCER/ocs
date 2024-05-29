@@ -10,6 +10,5 @@ if ($result_user && mysqli_num_rows($result_user) > 0) {
     $error = array('error' => 'Utente non trovato');
     echo json_encode($error);
 }
-
 mysqli_close($con);
 ?>

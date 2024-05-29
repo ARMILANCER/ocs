@@ -1,7 +1,7 @@
 <?php
 include 'db_conn.php';
 $sql = "SELECT * FROM scenario";
-$result = $conn->query($sql);
+$result = $con->query($sql);
 
 if ($result->num_rows > 0) {
     $scenarios = array();
@@ -14,10 +14,9 @@ if ($result->num_rows > 0) {
         );
         $scenarios[] = $scenario;
     }
-
     echo json_encode($scenarios);
 } else {
     echo "Nessun risultato trovato";
 }
-$conn->close();
+$con->close();
 ?>
