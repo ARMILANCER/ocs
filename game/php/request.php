@@ -10,7 +10,7 @@ $resultCH = $con->query($queryCH);
 if ($resultSC->num_rows > 0 && $resultCH->num_rows > 0) {
     $scenarios = array();
     $choices = array();
-    
+
     while($row = $resultCH->fetch_assoc()) {
         $choice = array(
             "id" => $row["id"],

@@ -8,7 +8,6 @@ body {
 
 div{
     position: relative; 
- 
 }
     
 button {
@@ -38,6 +37,7 @@ p{
     height: 100%;
     border: 1px solid rgb(255, 255, 255);
     overflow-y: auto; 
+    
     overflow-x: hidden;
     box-sizing: border-box;
 }
@@ -115,11 +115,11 @@ p{
 }
 
 .div_specific {
-    
     padding: 20px;
     background-color: #f2f2f2;
     border-radius: 10px;
     overflow-y: auto;
+    
 }
 
 .text {
