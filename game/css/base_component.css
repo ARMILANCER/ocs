@@ -69,23 +69,28 @@ p{
 }
 
 .div_img{
-    height: 25%;
-    width: 25%;
-    top: 35%;
-    left: 10%;
+    height: 80%;
+    width: 40%;
+    top: 9%;
+    left: 5%;
+
+    background-image: url('../img/Scenario1.jpg');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .div_situation{
     height: 25%;
     width: 25%;
-    top: -10%;
+    top: -60%;
     left: 50%;
 }
 
 .div_choices{
     height: 25%;
     width: 25%;
-    top: 5%;
+    top: -50%;
     left: 50%;
 }
 
