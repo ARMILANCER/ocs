@@ -151,3 +151,22 @@ form{
         0 -10px 20px #ff8000, 
         0 -18px 40px #F00; 
 }
+
+.registration-link-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.registration-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.registration-link:hover {
+    text-decoration: underline;
+}
