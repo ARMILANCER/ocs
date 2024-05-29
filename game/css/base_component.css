@@ -104,3 +104,24 @@ p{
 .text {
     color: aliceblue;
 }
+
+.div_specific {
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    overflow-y: auto;
+}
+
+.text {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000;
+}
