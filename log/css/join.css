@@ -1,6 +1,6 @@
 div{
     position: relative;
-    border: 1px solid white;
+
 }
 label{
     position: relative;
@@ -95,13 +95,11 @@ form{
     top: 60%;
     left: 50%;
     transform: translate(-50%,-65%);
-
     border: 1px solid rgb(255, 255, 255);
 }
 
 .div_input{
     position: relative;
-    
     align-items: center;
     flex-direction: column; 
     font-size: 1.5vw;
@@ -109,7 +107,6 @@ form{
     height: 6vw;
     justify-content: center;
     display: flex;
-
     flex-direction: column; 
     align-items: flex-start;
     padding: 2vw;
@@ -121,7 +118,13 @@ form{
 
 .page_to{
     text-align: center;
-    font-size: 2vw;
+    font-size: 2.5vw;
+    color: #333;
+    text-align: center; 
+    text-transform: uppercase;
+    letter-spacing: 0.1em; 
+    margin-bottom: 2vh;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .div_submit{
@@ -161,7 +164,7 @@ form{
     display: inline-block;
     white-space: nowrap;
     top: 50%;
-    left: 35%;
+    left: 32%;
 }
 
 .link {

@@ -79,7 +79,7 @@ form {
     transform: translate(-50%, -50%);
 }
 
-.div_registration {
+.div_login {
     position: relative;
     width: 53%;
     height: 70%;
@@ -103,6 +103,7 @@ form {
     flex-direction: column;
     align-items: flex-start;
     padding: 2vw;
+    
     top: 50%;
     left: 50%;
     transform: translate(-50%, 20%);
@@ -110,7 +111,14 @@ form {
 
 .page_to {
     text-align: center;
-    font-size: 2vw;
+    text-align: center;
+    font-size: 2.5vw;
+    color: #333;
+    text-align: center; 
+    text-transform: uppercase;
+    letter-spacing: 0.1em; 
+    margin-bottom: 2vh;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 .div_submit {
