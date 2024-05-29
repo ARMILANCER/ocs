@@ -21,7 +21,7 @@ CREATE TABLE IF NOT EXISTS scenario (
   id INT PRIMARY KEY AUTO_INCREMENT,
   name VARCHAR(50) NOT NULL,
   image VARCHAR(200) UNIQUE,
-  description text not null
+  description text
 );
 
 CREATE TABLE IF NOT EXISTS characters (
