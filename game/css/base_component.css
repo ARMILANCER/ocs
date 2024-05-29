@@ -74,21 +74,21 @@ button:hover {
 .div_img{
     height: 25%;
     width: 25%;
-    top: 50;
-    left: 50;
+    top: 35%;
+    left: 10%;
 }
 
 .div_situation{
     height: 25%;
     width: 25%;
-    top: 50;
-    left: 50;
+    top: -10%;
+    left: 50%;
 }
 .div_choices{
     height: 25%;
     width: 25%;
-    top: 50;
-    left: 50;
+    top: 5%;
+    left: 50%;
 }
 
 .text {
