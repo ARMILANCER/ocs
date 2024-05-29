@@ -7,7 +7,7 @@ function getScenarioData() {
         document.getElementById("p_state").innerHTML = data.state;
       }
     };
-    xhttp.open("GET", "get_scenario.php", true);
+    xhttp.open("GET", "../php/request.php", true);
     xhttp.send();
   }
   window.onload = function() {
