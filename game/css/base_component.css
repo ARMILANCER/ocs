@@ -12,11 +12,9 @@ div{
 }
 
 button {
-    height: 2vw;
-    width: 2vw;
+    
     position: relative;
     align-items: center;
-    background-image: url('../img/unlocked.svg');
     background-color: transparent;
     background-size: 2vw 2vw;
     background-repeat: no-repeat;
@@ -28,6 +26,10 @@ button {
 button:hover {
     background-color: rgba(248, 249, 250, 0.5);
     color: #000;
+}
+
+p{
+    color: aliceblue;
 }
 
 .div_container {
@@ -89,6 +91,7 @@ button:hover {
 
 .but_padlock{
     position: absolute;
+    background-image: url('../img/unlocked.svg');
     bottom: 1vw;
     left: 1vw;
     padding: 1vw 1vw;
