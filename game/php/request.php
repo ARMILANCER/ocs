@@ -36,9 +36,8 @@ if ($resultSC->num_rows > 0 && $resultCH->num_rows > 0) {
         $scenarios[] = $scenario;
     }
 } else {
-    echo "Nessun risultato trovato";
+    echo "ERROR QUERY";
 }
-
 echo json_encode($scenarios);
 $con->close();
 ?>

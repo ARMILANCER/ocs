@@ -10,6 +10,9 @@
     <div id="div_container" class="div_container">
         <div id="div_view" class="div_view">
             <div id="div_game" class="div_game">
+                <div id="overlay">
+                    <button onclick="hideOverlay()"><img src="../img/Play.png" alt=""></button>
+                </div>
                 <h1 id="game_title" class="game_title">Operation Crimson Sands</h1>
                 <div id="div_img" class="div_img"></div>
                 <div id="div_situation" class="div_situation">
@@ -30,8 +33,11 @@
             <p class="text">Il Capitano "Falco" Marco Rossi e la sua squadra affrontano paesaggi insidiosi e scontri pericolosi, dove ogni decisione che prendi plasmerà il loro destino. Ma attenzione, il fallimento non è un'opzione, e ogni errore potrebbe costare la vita a un membro del team.</p>
             <p class="text">Immergiti in "Operation Crimson Sands", un'avvincente visual novel dove strategia, coraggio e sacrificio sono le chiavi per la sopravvivenza. Riuscirai a guidare Falco 7 alla vittoria e riportare a casa gli ostaggi, o il deserto reclamerà altre vittime? Il destino di molti è nelle tue mani.</p>
         </div>
+        <audio id="background-music" loop>
+            <source id ="source_music"  type="audio/mpeg">
+        </audio>
     </div>
     <script src="../js/padlock.js"></script>
     <script src="../js/request.js"></script>
+    <script src="../js/onload.js"></script>
 </body>
-</html>
