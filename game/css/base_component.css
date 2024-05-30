@@ -8,6 +8,7 @@ body {
 
 div{
     position: relative; 
+    border: 1px solid white;
 }
     
 button {
@@ -89,7 +90,7 @@ p{
 .div_situation{
     height: 25%;
     width: 45%;
-    top: -70%;
+    top: -63%;
     left: 50%;
 }
 
