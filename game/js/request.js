@@ -1,4 +1,4 @@
-var i = 5;
+var i = 0;
 function getScenarioData() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
