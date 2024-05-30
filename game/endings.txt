@@ -1,0 +1,24 @@
+Complete death:
+
+La tua squadra è stata sopraffatta dalle forze nemiche.
+Nonostante il loro coraggio e la loro determinazione, non sono riusciti a completare la missione.
+La perdita è un duro colpo per tutti.
+Riprova, impara dai tuoi errori e torna più forte.
+Game Over.
+
+Ending 1 (no deaths):
+Congratulazioni! La tua squadra ha completato la missione con successo.
+Tutti i membri sono tornati sani e salvi, e gli ostaggi sono stati liberati.
+La loro abilità, cooperazione e coraggio sono stati fondamentali per la vittoria.
+Ottimo lavoro!
+
+Ending 2 (one death):
+La tua squadra ha portato a termine la missione con successo e gli ostaggi sono stati liberati. Tuttavia, la vittoria ha avuto un prezzo.
+Uno dei membri del team ha sacrificato la sua vita per il successo della missione.
+Onora il suo sacrificio e continua a combattere per la giustizia.
+Complimenti per il successo ottenuto!
+
+Ending 3 (one survivor):
+Contro ogni previsione, la missione è stata completata e gli ostaggi sono stati liberati.
+Purtroppo, solo un membro della squadra è sopravvissuto, portando a termine la missione con straordinario coraggio e determinazione.
+Il loro sacrificio non sarà dimenticato. Sei un vero eroe. Bravo!
