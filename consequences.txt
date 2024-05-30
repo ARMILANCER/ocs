@@ -65,3 +65,22 @@ Fallimento (30%):
 Nonostante gli sforzi, la tempesta è troppo forte e la visibilità è praticamente nulla.
 Durante l'avanzata, la squadra si disperde e nella confusione uno dei membri scompare misteriosamente.
 La perdita è devastante e la squadra, ora ridotta e demoralizzata, dovrà procedere senza il loro compagno caduto.
+
+
+Scenario 4:
+
+Choice 1:
+Con la tensione palpabile nell'aria, Torre si avvicina lentamente al ponte, pronto a disinnescare le mine.
+Il resto della squadra mantiene la copertura, con occhi attenti a qualsiasi movimento nemico.
+Ogni passo di Torre è misurato, ogni filo tagliato con precisione.
+
+Successo (se la squadra non ha incontrato ritardi nello Scenario 3):
+Con mani ferme e precisione impeccabile, Torre riesce a disinnescare tutte le mine.
+La squadra attraversa il ponte in sicurezza, grata per l'abilità di Torre.
+Hanno superato un ostacolo cruciale senza incidenti, e ora possono avanzare con maggiore fiducia.
+
+Mentre Torre lavora sulle mine, un movimento improvviso attira l'attenzione di Snake, che si gira troppo tardi per avvertire Torre.
+Improvvisamente, i terroristi emergono dall'ombra, scatenando un'imboscata.
+Nonostante i rapidi tentativi di reazione da parte della squadra, sono sopraffatti dalla forza nemica.
+Torre viene colpito mortalmente nel caos.
+La squadra, devastata dalla perdita e circondata dai nemici, si ritrova in una situazione critica, con la missione sull'orlo del fallimento.
