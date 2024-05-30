@@ -1,0 +1,67 @@
+Scenario 1
+
+Choice 1:
+Falco e Torre si muovono rapidamente, attirando l'attenzione delle pattuglie con falsi segnali e movimenti rapidi.
+Nel frattempo, Snake sfrutta l'occasione per infiltrarsi nel campo nemico.
+Grazie alla distrazione creata dai compagni, Snake riesce a mappare con precisione la posizione dei nemici e dei punti di interesse, facilitando la navigazione per la squadra.
+
+Choice 2:
+La squadra attiva i dispositivi di disturbo, generando un campo di interferenza che rende inefficaci i droni di sorveglianza.
+Avanzano rapidamente e in silenzio, evitando il rilevamento.
+Grazie a questa strategia, riescono a superare il confine senza essere notati, riducendo il rischio di essere scoperti
+
+
+Scenario 2
+
+Choice 1:
+Falco e Torre si appostano ai margini del villaggio, osservando attentamente i dintorni mentre Snake si avvicina furtivamente.
+Con movimenti rapidi e silenziosi, Snake si addentra nel villaggio, cercando segnali di pericolo e trappole nemiche.
+
+Successo (se Snake ha mappato i nemici nello Scenario 1):
+Grazie alla mappa dettagliata ottenuta in precedenza, Snake individua facilmente i percorsi sicuri e le possibili trappole.
+Si muove con sicurezza, evitando ogni pericolo e trovando un luogo sicuro per la squadra.
+La loro presenza rimane nascosta e possono riposarsi senza rischi.
+
+Fallimento (se Snake non ha mappato i nemici nello Scenario 1):
+Senza una conoscenza precisa del territorio, Snake si muove con maggiore cautela.
+Tuttavia, una trappola ben nascosta scatta improvvisamente, uccidendolo all'istante. La squadra si precipita a soccorrerlo, ma è troppo tardi.
+La perdita di Snake mette l'intera missione a rischio, ma la squadra, devastata dalla morte del loro compagno, prosegue.
+
+Choice 2:
+La squadra decide di entrare nel villaggio compatta, avanzando lentamente e con estrema cautela.
+Ogni passo è misurato, con Falco che guida il gruppo mentre Torre e Snake scrutano attentamente l'area circostante, cercando segni di trappole e pericoli.
+
+Successo (se i droni sono stati disattivati nello Scenario 1):
+Grazie al fatto che i droni nemici sono stati disattivati, la squadra non attira l'attenzione mentre si muove attraverso il villaggio.
+Con movimenti coordinati e una sorveglianza attenta, riescono a trovare un rifugio sicuro, dove possono pianificare i loro prossimi passi senza preoccupazioni immediate.
+
+Fallimento (se i droni non sono stati disattivati nello Scenario 1):
+Mentre avanzano lentamente, i droni nemici, ancora operativi, rilevano la loro presenza.
+All'improvviso, un gruppo di terroristi emerge dalle ombre, tendendo un'imboscata alla squadra.
+Nella confusione, uno dei membri viene ucciso, mettendo a rischio l'intera operazione.
+La squadra, devastata dalla perdita, si ritira dal villaggio per trovare un nuovo rifugio.
+
+
+Scenario 3
+
+Choice 1:
+La squadra si accovaccia sotto una copertura improvvisata, cercando riparo dalla furia della tempesta di sabbia.
+La visibilità è quasi nulla e il vento ulula intorno a loro, rendendo ogni movimento pericoloso.
+Falco ordina a tutti di mantenere la posizione e aspettare che la tempesta passi.
+Dopo ore di attesa, la tempesta finalmente si calma.
+La squadra, benché impaziente, è illesa e pronta a proseguire.
+Anche se hanno perso del tempo prezioso, sono riusciti a evitare pericoli immediati e possono continuare la missione con cautela e determinazione.
+
+Choice 2:
+Decidendo di non perdere tempo, Falco ordina alla squadra di continuare a muoversi, utilizzando strumenti di navigazione avanzati per mantenere la rotta.
+Ogni passo è un atto di fede, con la sabbia che azzera la visibilità e rende difficile anche respirare.
+
+Successo (70%):
+Grazie all'uso abile degli strumenti di navigazione, la squadra riesce a mantenere la rotta e avanzare lentamente attraverso la tempesta.
+Anche se le condizioni sono estreme, riescono a rimanere uniti e a raggiungere un'area più sicura.
+La loro determinazione li ha portati avanti, e ora sono più vicini al loro obiettivo.
+
+Fallimento (30%):
+Nonostante gli sforzi, la tempesta è troppo forte e la visibilità è praticamente nulla.
+Durante l'avanzata, la squadra si disperde e nella confusione uno dei membri scompare misteriosamente.
+La perdita è devastante e la squadra, ora ridotta e demoralizzata, dovrà procedere senza il loro compagno caduto.
