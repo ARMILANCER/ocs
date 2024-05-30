@@ -33,7 +33,6 @@ if ($resultSC->num_rows > 0 && $resultCH->num_rows > 0) {
                 $i++;
             }
         }
-        
         $scenarios[] = $scenario;
     }
 } else {
