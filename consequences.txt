@@ -29,7 +29,7 @@ La perdita di Snake mette l'intera missione a rischio, ma la squadra, devastata 
 
 Choice 2:
 La squadra decide di entrare nel villaggio compatta, avanzando lentamente e con estrema cautela.
-Ogni passo è misurato, con Falco che guida il gruppo mentre Torre e Snake scrutano attentamente l'area circostante, cercando segni di trappole e pericoli.
+Ogni passo è misurato, con Falco che guida il gruppo mentre il resto della squadra scruta attentamente l'area circostante, cercando segni di trappole e pericoli.
 
 Successo (se i droni sono stati disattivati nello Scenario 1):
 Grazie al fatto che i droni nemici sono stati disattivati, la squadra non attira l'attenzione mentre si muove attraverso il villaggio.
@@ -56,12 +56,12 @@ Choice 2:
 Decidendo di non perdere tempo, Falco ordina alla squadra di continuare a muoversi, utilizzando strumenti di navigazione avanzati per mantenere la rotta.
 Ogni passo è un atto di fede, con la sabbia che azzera la visibilità e rende difficile anche respirare.
 
-Successo (70%):
+Successo (80%):
 Grazie all'uso abile degli strumenti di navigazione, la squadra riesce a mantenere la rotta e avanzare lentamente attraverso la tempesta.
 Anche se le condizioni sono estreme, riescono a rimanere uniti e a raggiungere un'area più sicura.
 La loro determinazione li ha portati avanti, e ora sono più vicini al loro obiettivo.
 
-Fallimento (30%):
+Fallimento (20%):
 Nonostante gli sforzi, la tempesta è troppo forte e la visibilità è praticamente nulla.
 Durante l'avanzata, la squadra si disperde e nella confusione uno dei membri scompare misteriosamente.
 La perdita è devastante e la squadra, ora ridotta e demoralizzata, dovrà procedere senza il loro compagno caduto.
@@ -79,8 +79,135 @@ Con mani ferme e precisione impeccabile, Torre riesce a disinnescare tutte le mi
 La squadra attraversa il ponte in sicurezza, grata per l'abilità di Torre.
 Hanno superato un ostacolo cruciale senza incidenti, e ora possono avanzare con maggiore fiducia.
 
-Mentre Torre lavora sulle mine, un movimento improvviso attira l'attenzione di Snake, che si gira troppo tardi per avvertire Torre.
+Fallimento (se la squadra ha perso tempo nello scenario 3):
+Mentre Torre lavora sulle mine, un movimento improvviso attira l'attenzione della squadra.
 Improvvisamente, i terroristi emergono dall'ombra, scatenando un'imboscata.
 Nonostante i rapidi tentativi di reazione da parte della squadra, sono sopraffatti dalla forza nemica.
-Torre viene colpito mortalmente nel caos.
-La squadra, devastata dalla perdita e circondata dai nemici, si ritrova in una situazione critica, con la missione sull'orlo del fallimento.
+Uno dei membri viene colpito mortalmente nel caos.
+La squadra, devastata dalla perdita, riesce a neutralizzare i nemici, e a trovare un momento di pace.
+La missione continua, ma senza uno dei loro membri chiave, rendendo il percorso futuro ancora più incerto e pericoloso.
+
+Choice 2:
+Decidendo di non rischiare il disinnesco, Falco ordina alla squadra di cercare un percorso alternativo attraverso il canyon.
+Il terreno è difficile e il rischio di ritardi è alto, ma è una scelta che potrebbe evitare vittime inutili.
+
+Successo (70%):
+Dopo una lunga e faticosa ricerca, la squadra trova un sentiero sicuro che li porta attraverso il canyon.
+Anche se hanno perso del tempo prezioso, nessuno è rimasto ferito e sono riusciti a evitare una situazione potenzialmente mortale.
+
+Fallimento (30%):
+Il terreno del canyon si rivela più insidioso del previsto.
+Durante l'attraversamento, una frana improvvisa colpisce la squadra. Nonostante i tentativi di salvataggio, uno dei membri viene travolto e muore.
+La squadra, scossa e in lutto, deve trovare la forza di continuare la missione con un membro in meno.
+
+
+Scenario 5:
+
+Choice 1:
+La squadra decide di sfruttare la copertura della notte per infiltrarsi nel campo nemico.
+Muovendosi come ombre, riescono ad avanzare furtivamente, evitando le pattuglie e cercando di raggiungere i rifornimenti.
+
+Successo (se la squadra non ha incontrato ritardi nello Scenario 4):
+Grazie alla loro abilità e coordinazione, la squadra riesce a penetrare nel campo nemico senza essere rilevata.
+Falco sabota con successo le armi nemiche mentre il resto della squadra carica i rifornimenti essenziali.
+Con nuove munizioni e armi, riescono ad ottenere un vantaggio significativo per le future operazioni.
+La missione continua con rinnovata speranza e risorse.
+
+Fallimento (se la squadra ha perso tempo nello scenario 4):
+Mentre la squadra si muove nel campo nemico, un guardiano allerta il campo. Le luci si accendono e l'allarme risuona.
+I nemici, ben armati e preparati, reagiscono rapidamente. Nel caos che segue, un membro della squadra viene colpito mortalmente.
+Costretta a ritirarsi in fretta, lasciano indietro i rifornimenti e le armi.
+La missione continua, ma la perdita di un membro e l'assenza di rifornimenti rendono il futuro incerto e pericoloso.
+
+Choice 2:
+La squadra decide di evitare il campo nemico per non rischiare di essere scoperta.
+Muovendosi con cautela, avanzano verso il loro obiettivo principale, mantenendo un profilo basso.
+La scelta prudente paga: la squadra riesce a passare oltre il campo nemico senza essere rilevata.
+Anche se senza rifornimenti aggiuntivi, la squadra avanza rapidamente e senza intoppi.
+La missione continua, con il team concentrato e determinato.
+
+
+Scenario 6:
+
+Choice 1:
+La squadra si avvicina furtivamente alla torre di guardia.
+Snake, sfruttando le sue abilità da cecchino, prende posizione e si prepara a eliminare i cecchini nemici uno per uno.
+
+Successo (Se la squadra ha sabotato le armi nello Scenario 5):
+Grazie alla loro mancanza di armamentario e alla precisione letale di Snake, i cecchini nemici vengono neutralizzati uno dopo l'altro senza allertare il resto delle forze nemiche.
+La squadra riesce a passare indisturbata, guadagnando una posizione strategica più vicina al complesso nemico.
+
+Fallimento(Se la squadra non ha sabotato le armi nello Scenario 5):
+Mentre Snake cerca di prendere posizione, uno dei cecchini nemici lo scopre e allerta il resto delle guardie.
+Ne segue un intenso scontro a fuoco, durante il quale Snake viene colpito mortalmente.
+La squadra è costretta a ritirarsi e a cercare un percorso alternativo sotto il fuoco nemico.
+
+Choice 2:
+La squadra decide di non rischiare uno scontro con i cecchini nella torre di guardia.
+Cercano un percorso alternativo, anche se questo potrebbe allungare il tempo di viaggio.
+
+Successo (60%):
+La squadra trova un percorso sicuro che aggira la torre di guardia.
+Anche se il cammino è più lungo, riescono a evitare uno scontro diretto, mantenendo la loro posizione non rilevata e avanzando verso il loro obiettivo senza perdite.
+
+Fallimento (40%):
+La ricerca del percorso alternativo si rivela più complicata del previsto. La squadra si imbatte in un terreno accidentato e faticoso da attraversare, perdendo molto tempo.
+Inoltre, durante l'avanzata, vengono scoperti da uno dei cecchini, che li ingaggia in un combattimento serrato, portando così alla morte di un mebro della squadra.
+Nonostante la perdita, la squadra riesce ad avanzare.
+
+
+Scenario 7:
+
+Choice 1:
+La squadra si avvicina cautamente al complesso.
+Torre si prepara a disattivare i sistemi di sicurezza, consentendo un'infiltrazione silenziosa.
+
+Successo (Se Torre è riuscito a disinnescare le mine nello Scenario 4):
+Torre, avendo compreso maggiormente gli armamenti nemici, riesce a disattivare rapidamente i sistemi di sicurezza, permettendo alla squadra di entrare nel complesso senza allertare le guardie.
+Muovendosi furtivamente, riescono a neutralizzare le poche guardie presenti e a localizzare gli ostaggi senza essere rilevati.
+
+Fallimento (Se Torre ha fallito nello Scenario 4):
+Durante il tentativo di disattivare i sistemi di sicurezza, Torre incontra un problema imprevisto.
+Il sistema lancia un allarme, allertando tutte le guardie del complesso.
+La squadra è costretta a ingaggiare un combattimento pesante, durante il quale Torre viene colpito mortalmente.
+Nonostante riescano a neutralizzare le guardie e a localizzare gli ostaggi, la squadra subisce gravi perdite.
+
+Choice 2:
+La squadra decide di effettuare un assalto frontale coordinato.
+Pianificano meticolosamente l'attacco, assegnando compiti specifici a ciascun membro per massimizzare l'efficacia dell'operazione.
+
+Successo (Se la squadra ha ottenuto i rifornimenti nello Scenario 5):
+L'assalto frontale si rivela efficace.
+Grazie alla perfetta coordinazione e all'uso strategico dei rifornimenti acquisiti, la squadra riesce a sopraffare le guardie nemiche e a liberare gli ostaggi.
+
+Fallimento (Se la squadra non ha ottenuto i rifornimenti nello Scenario 5):
+L'assalto frontale si trasforma rapidamente in un massacro.
+La resistenza nemica è più feroce del previsto, e la mancanza di rifornimenti rende la squadra vulnerabile.
+Dopo un violento scontro, la squadra riesce a respingere i nemici e a localizzare gli ostaggi, ma al costo di un membro.
+
+
+Scenario 8:
+
+Choice 1:
+La squadra individua un veicolo nemico vicino e decide di utilizzarlo per una fuga rapida.
+Devono agire in fretta per evitare i rinforzi nemici.
+
+Successo (Se la squadra ha sabotato il campo nello Scenario 5):
+Dato il basso grado di sorveglianza, la squadra riesce a raggiungere il veicolo nemico senza essere rilevata.
+Grazie alla loro velocità e abilità, riescono a superare i checkpoint nemici e a mettere una notevole distanza tra loro e i rinforzi nemici.
+La fuga è un successo.
+
+Fallimento (Se la squadra non ha sabotato il campo nello Scenario 5):
+Mentre cercano di prendere il controllo del veicolo nemico, vengono scoperti dalle pattuglie. Un intenso scontro a fuoco si sviluppa, e nonostante il loro coraggio e abilità, la squadra è sopraffatta dalla superiorità numerica nemica.
+Purtroppo, un membro della squadra viene ucciso nel tentativo di fuga.
+
+Choice 2:
+La squadra decide di fuggire a piedi attraverso un percorso alternativo e meno sorvegliato, sfruttando la conoscenza del terreno e cercando di evitare le pattuglie nemiche.
+
+Successo (Se la squadra ha evitato il confronto nello Scenario 6):
+La squadra, con grande abilità e discrezione, riesce a muoversi attraverso il terreno impervio senza essere rilevata.
+Utilizzando percorsi nascosti e tecniche di evasione, riescono a sfuggire ai nemici e a mettere al sicuro gli ostaggi.
+La missione è un successo.
+
+Fallimento (Se la squadra non ha evitato il confronto nello Scenario 6):
+Durante la fuga a piedi, la squadra viene intercettata da una pattuglia nemica. Nonostante i loro sforzi per combattere e fuggire, la superiorità numerica e il terreno difficile rendono la fuga estremamente complicata. La squadra viene sopraffatta e uno dei membri muore.
