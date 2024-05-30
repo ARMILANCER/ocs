@@ -105,6 +105,8 @@ p{
 
 .but_choice{
     margin: 1%;
+    height: 23vh;
+    width: 22vw;
     border: 1px solid rgba(212, 20, 20, 0.805);
 }
 
@@ -125,7 +127,7 @@ p{
     background-color: #f2f2f2;
     border-radius: 10px;
     overflow-y: auto;
-    
+
 }
 
 .text {
