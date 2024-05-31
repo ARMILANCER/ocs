@@ -13,6 +13,20 @@ function getScenarioData() {
   xhttp.send();
 }
 
+function getInfoGame() {
+  fetch('../trama.txt')
+  .then(response => response.text())
+  .then(data => {
+    var h1 = document.createElement("h1")
+    var p = document.createElement("p");
+    p.textContent = data;
+    p.style.color = "black";
+    specific.appendChild(p);
+  })
+  .catch(error => console.error('ERROR ON CHARGE', error));
+}
+
+
 window.onload = function() {
   getScenarioData();
   getInfoGame();
