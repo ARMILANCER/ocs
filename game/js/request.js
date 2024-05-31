@@ -13,11 +13,6 @@ function getScenarioData() {
   xhttp.send();
 }
 
-function getInfoGame(){
-  
-}
-
-
 window.onload = function() {
   getScenarioData();
   getInfoGame();
@@ -37,7 +32,7 @@ function updateScenario() {
 document.getElementById("but_choicex").addEventListener("click", function() {
   currentScenarioIndex++;
   if (currentScenarioIndex >= scenarios.length) {
-    currentScenarioIndex = 0; // Reset per tornare al primo scenario
+    currentScenarioIndex = 0;
   }
   updateScenario();
 });
@@ -45,7 +40,7 @@ document.getElementById("but_choicex").addEventListener("click", function() {
 document.getElementById("but_choicey").addEventListener("click", function() {
   currentScenarioIndex++;
   if (currentScenarioIndex >= scenarios.length) {
-    currentScenarioIndex = 0; // Reset per tornare al primo scenario
+    currentScenarioIndex = 0;
   }
   updateScenario();
 });
