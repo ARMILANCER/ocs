@@ -1,6 +1,6 @@
 <?php
 include 'db_conn.php';
-$sql = "SELECT id, 'name', long_description,'image' FROM characters";
+$sql = "SELECT * FROM characters";
 $result = $conn->query($sql);
 $characters = array();
 
