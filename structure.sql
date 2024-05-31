@@ -16,7 +16,8 @@ CREATE TABLE IF NOT EXISTS scenario (
 CREATE TABLE IF NOT EXISTS characters (
     id INT PRIMARY KEY AUTO_INCREMENT,
     name VARCHAR(70) NOT NULL UNIQUE,
-    long_description text NOT NULL
+    long_description text NOT NULL,
+    image VARCHAR(200) UNIQUE
 );
 
 CREATE TABLE IF NOT EXISTS choice (
