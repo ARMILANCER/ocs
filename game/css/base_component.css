@@ -8,7 +8,6 @@ body {
 
 div{
     position: relative; 
-
 }
     
 button {
@@ -72,11 +71,24 @@ p{
     font-size: 36px;
     font-family: 'Arial', sans-serif;
 }
-.div_specific {
-    position: relative;
+.div_info {
     width: 100%;
     height: 50%;
+
+    display: flex;
+
     box-sizing: border-box;
+    padding: 20px;
+}
+
+.div_specific{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    overflow-y: auto;
 }
 
 .div_game{
@@ -86,6 +98,7 @@ p{
     width: 100%;
     color: aliceblue;
 }
+
 
 .div_img{
     height: 73%;
@@ -97,6 +110,8 @@ p{
     background-position: center;
     background-repeat: no-repeat;
 }
+
+
 
 .div_situation{
     height: 25%;
@@ -141,23 +156,3 @@ p{
     color: aliceblue;
 }
 
-.div_specific {
-    padding: 20px;
-    background-color: #f2f2f2;
-    border-radius: 10px;
-    overflow-y: auto;
-
-}
-
-.text {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-    color: #333;
-}
-
-.text h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #000;
-}
