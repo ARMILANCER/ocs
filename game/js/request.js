@@ -1,5 +1,11 @@
 var scenarios = [];
 var currentScenarioIndex = 0;
+var click = false;
+
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('but_forward').addEventListener('click', getInfoGame);
+    document.getElementById('but_back').addEventListener('click', getInfoGame);
+});
 
 function getScenarioData() {
   var xhttp = new XMLHttpRequest();
@@ -14,16 +20,47 @@ function getScenarioData() {
 }
 
 function getInfoGame() {
-  fetch('../trama.txt')
-  .then(response => response.text())
-  .then(data => {
-    var h1 = document.createElement("h1")
-    var p = document.createElement("p");
-    p.textContent = data;
-    p.style.color = "black";
-    specific.appendChild(p);
-  })
-  .catch(error => console.error('ERROR ON CHARGE', error));
+  if(!click){
+    fetch('../trama.txt')
+    .then(response => response.text())
+    .then(data => {
+      var h1 = document.createElement("h1")
+      var p = document.createElement("p");
+      p.textContent = data;
+      p.style.color = "black";
+      specific.appendChild(p);
+    })
+    .catch(error => console.error('ERROR ON CHARGE', error));
+    click = true
+  }else{
+    fetch('get_characters.php')
+    .then(response => response.json())
+    .then(data => {
+        const container = document.getElementById('characters-container');
+        container.innerHTML = '';
+        data.forEach(character => {
+            const card = document.createElement('div');
+            card.classList.add('character-card');
+            
+            const img = document.createElement('img');
+            img.src = character.image || 'default-image.jpg';
+            img.alt = character.name;
+            
+            const name = document.createElement('h3');
+            name.textContent = character.name;
+            
+            const description = document.createElement('p');
+            description.textContent = character.long_description;
+
+            card.appendChild(img);
+            card.appendChild(name);
+            card.appendChild(description);
+            
+            container.appendChild(card);
+        });
+    })
+    .catch(error => console.error('Errore nel caricamento dei dati:', error));
+  }
 }
 
 
