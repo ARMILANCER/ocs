@@ -19,19 +19,20 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
-    let voiceoff = false;
+    let voiceoff = true;
     var audio = document.getElementById('background-music');
+    var button = document.getElementById('but_voice');
     function toggleVoice() {
         if (voiceoff) {
             audio.pause();
-            button.style.backgroundImage = "url('../img/voiceoff.svg')";
+            button.style.backgroundImage = "url('../img/voiceoff.png')";
         } else {
             audio.play();
-            button.style.backgroundImage = "url('../img/voiceon.svg')";
+            button.style.backgroundImage = "url('../img/voiceon.png')";
         }
+        voiceoff = !voiceoff;
     }
     button.addEventListener('click', function() {
-        isLocked = !isLocked;
         toggleVoice();
     });
 });
