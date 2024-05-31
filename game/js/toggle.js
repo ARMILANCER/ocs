@@ -17,3 +17,21 @@ document.addEventListener('DOMContentLoaded', function() {
         togglePageLock();
     });
 });
+
+document.addEventListener('DOMContentLoaded', function() {
+    let voiceoff = false;
+    var audio = document.getElementById('background-music');
+    function toggleVoice() {
+        if (voiceoff) {
+            audio.pause();
+            button.style.backgroundImage = "url('../img/voiceoff.svg')";
+        } else {
+            audio.play();
+            button.style.backgroundImage = "url('../img/voiceon.svg')";
+        }
+    }
+    button.addEventListener('click', function() {
+        isLocked = !isLocked;
+        toggleVoice();
+    });
+});

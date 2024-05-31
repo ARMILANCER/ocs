@@ -158,6 +158,14 @@ p{
     padding: 1vw 1vw;
 }
 
+.but_voice{
+    position: absolute;
+    background-image: url('../img/voiceon.png');
+    top: 1vw;
+    right: 1vw;
+    padding: 1vw 1vw;
+}
+
 .text {
     color: aliceblue;
 }
