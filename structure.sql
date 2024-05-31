@@ -38,6 +38,7 @@ CREATE TABLE IF NOT EXISTS `match` (
     id INT PRIMARY KEY AUTO_INCREMENT,
     timer INT NOT NULL,
     score INT NOT NULL,
+    `image` varchar(200) UNIQUE,
     id_user INT NOT NULL,
     FOREIGN KEY (id_user) REFERENCES `user`(id)
 );
