@@ -13,6 +13,16 @@ function getScenarioData() {
   xhttp.send();
 }
 
+function getInfoGame(){
+  
+}
+
+
+window.onload = function() {
+  getScenarioData();
+  getInfoGame();
+};
+
 function updateScenario() {
   if (currentScenarioIndex < scenarios.length) {
     var scenario = scenarios[currentScenarioIndex];
@@ -39,7 +49,3 @@ document.getElementById("but_choicey").addEventListener("click", function() {
   }
   updateScenario();
 });
-
-window.onload = function() {
-  getScenarioData();
-};
