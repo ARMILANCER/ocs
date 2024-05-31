@@ -19,49 +19,64 @@ function getScenarioData() {
   xhttp.send();
 }
 
-function getInfoGame() {
-  if(!click){
-    fetch('../trama.txt')
-    .then(response => response.text())
-    .then(data => {
-      var h1 = document.createElement("h1")
-      var p = document.createElement("p");
-      p.textContent = data;
-      p.style.color = "black";
-      specific.appendChild(p);
-    })
-    .catch(error => console.error('ERROR ON CHARGE', error));
-    click = true
-  }else{
-    fetch('get_characters.php')
-    .then(response => response.json())
-    .then(data => {
-        const container = document.getElementById('characters-container');
-        container.innerHTML = '';
-        data.forEach(character => {
-            const card = document.createElement('div');
-            card.classList.add('character-card');
-            
-            const img = document.createElement('img');
-            img.src = character.image || 'default-image.jpg';
-            img.alt = character.name;
-            
-            const name = document.createElement('h3');
-            name.textContent = character.name;
-            
-            const description = document.createElement('p');
-            description.textContent = character.long_description;
+function getCharacterData() {
+  function loadTrama() {
+      fetch('../trama.txt')
+          .then(response => response.text())
+          .then(data => {
+              const container = document.getElementById('specific');
+              container.innerHTML = '';
 
-            card.appendChild(img);
-            card.appendChild(name);
-            card.appendChild(description);
-            
-            container.appendChild(card);
-        });
-    })
-    .catch(error => console.error('Errore nel caricamento dei dati:', error));
+              const title = document.createElement('h2');
+              title.textContent = 'Trama';
+              container.appendChild(title);
+
+              const trama = document.createElement('p');
+              trama.textContent = data;
+              container.appendChild(trama);
+          })
+          .catch(error => console.error('Errore nel caricamento della trama:', error));
+  }
+
+  function loadCharacters() {
+      fetch('../php/requestInfo.php')
+          .then(response => response.json())
+          .then(data => {
+              const container = document.getElementById('specific');
+              container.innerHTML = '';
+              data.forEach(character => {
+                  const card = document.createElement('div');
+                  card.classList.add('character-card');
+
+                  const img = document.createElement('img');
+                  img.src = character.image;
+                  img.alt = character.name;
+
+                  const name = document.createElement('h3');
+                  name.textContent = character.name;
+
+                  const description = document.createElement('p');
+                  description.textContent = character.long_description;
+
+                  card.appendChild(img);
+                  card.appendChild(name);
+                  card.appendChild(description);
+
+                  container.appendChild(card);
+              });
+          })
+          .catch(error => console.error('Errore nel caricamento dei dati:', error));
+  }
+
+  if (this.id === 'but_forward') {
+      loadCharacters();
+  } else if (this.id === 'but_back') {
+      loadTrama();
   }
 }
+
+document.getElementById('but_forward').addEventListener('click', getCharacterData);
+document.getElementById('but_back').addEventListener('click', getCharacterData);
 
 
 window.onload = function() {
