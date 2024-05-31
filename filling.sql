@@ -35,3 +35,8 @@ VALUES
 ('La Torre di Guardia', 'La squadra deve passare vicino a una torre di guardia nemica con cecchini ben posizionati.', '../img/Scenario6.jpg'),
 ('Il Complesso Nemico', 'La squadra arriva finalmente al complesso dove sono tenuti gli ostaggi, ma l\'area è fortificata con numerose guardie e sistemi di sicurezza avanzati.', '../img/Scenario7.jpg'),
 ('La Fuga', 'Con gli ostaggi liberati, la squadra deve fuggire prima che arrivino i rinforzi nemici. La fuga è complicata da diversi fattori, tra cui il terreno e la presenza di pattuglie nemiche.', '../img/Scenario8.jpg');
+
+UPDATE `characters` SET `image` = '../img/falco.svg' WHERE `characters`.`id` = 1;
+UPDATE `characters` SET `image` = '../img/torre.svg' WHERE `characters`.`id` = 2;
+UPDATE `characters` SET `image` = '../img/snake.svg' WHERE `characters`.`id` = 3;
+UPDATE `characters` SET `image` = '../img/soldato_semplice.svg' WHERE `characters`.`id` = 4;
